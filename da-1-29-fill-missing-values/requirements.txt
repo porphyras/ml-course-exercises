@@ -1,2 +1,1 @@
-Python 3.8+
-Pandas
+pandas>=2.0

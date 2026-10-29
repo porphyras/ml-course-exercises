@@ -61,18 +61,18 @@ pip install -r requirements.txt
 
 ### Option A — Generate a synthetic test image
 ```bash
-python src/cv_2_17.py --generate --out-dir out
+python cv_2_17.py --generate --out-dir out
 ```
 
 ### Option B — Use your own image
 Place your image in the `data/` folder and run:
 ```bash
-python src/cv_2_17.py --input data/my_image.png --out-dir out
+python cv_2_17.py --input data/my_image.png --out-dir out
 ```
 
 ### Option C — Change area thresholds
 ```bash
-python src/cv_2_17.py --input data/my_image.png --min-area 150 --max-area 2000
+python cv_2_17.py --input data/my_image.png --min-area 150 --max-area 2000
 ```
 
 ## Sample Output

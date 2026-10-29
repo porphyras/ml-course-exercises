@@ -1,4 +1,3 @@
-Python 3.8+
-OpenCV
-NumPy
-Pillow
+opencv-python>=4.8
+numpy>=1.24
+pillow>=10.0
